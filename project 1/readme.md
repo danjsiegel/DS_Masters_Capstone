@@ -1,4 +1,4 @@
-# OOP Final project
+# OOP Demonstration Project
 
 This project is an example of OOP programming. The data (Data about the avengers) reads in CSV, writes out Markdown files, and interprets data as classes. 
 

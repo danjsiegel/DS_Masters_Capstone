@@ -1,10 +1,10 @@
 # OOP Demonstration Project
 
-This project is an example of OOP programming. The data (Data about the avengers) reads in CSV, writes out Markdown files, and interprets data as classes. 
+This project is an example of OOP programming. The data (data about the avengers) is in CSV format. The data is ingested, processing the data and then writes out Markdown file on the most popular avengers. The project displays a full project which includes unit tests. 
 
 ### Script Outputs
 
-The outputs for the processed CSV and the Markdown report are the same as described in the midterm project.  The only difference is the code used to produce these outputs will use the `Avenger` class found in `avenger.py`.  
+The outputs for the processed CSV and the Markdown report.
 
 ### OOP
 The `avenger.py` module contains the `Avenger` class. It should implement methods for all of the fields found in the input CSV.  In addition to implementing methods for each field, implement the method `to_markdown` which generates the Markdown markup described in the midterm project. 

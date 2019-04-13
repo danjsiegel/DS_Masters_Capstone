@@ -2,9 +2,9 @@
 
 This is a short portfolio of projects accomplished over the course of the Masters in Data Science at Bellevue University. You will find a Readme in each project that further details the scope of what was covered. 
 
-[About](https://www.google.com)
-[Work](https://www.google.com)
-[Contact](https://www.google.com)
+[About](about.md)
+[Work](work.md)
+[Contact](contact.md)
 
 ## Projects
 1. OOP Example Project

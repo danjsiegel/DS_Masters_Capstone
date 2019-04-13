@@ -1,1 +1,11 @@
 theme: jekyll-theme-architect
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - About.md
+  - README.md
+  - Contact.md
+  - Work.md

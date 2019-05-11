@@ -2,7 +2,7 @@
 
 This is a short portfolio of projects accomplished over the course of the Masters in Data Science at Bellevue University. You will find a Readme in each project that further details the scope of what was covered. 
 
-[About](docs.About.md)
+[About](docs/About.md)
 
 [Work](docs/Work.md)
 

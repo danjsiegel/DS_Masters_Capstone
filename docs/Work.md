@@ -1,8 +1,8 @@
 # Daniel J. Siegel, PMP, CSM, CSPO
 
 ## Education
-American University, Washington DC, B.A. Political Science, Minor Psychology, May 2009
-Bellevue University, Bellevue NE, M.S. Data Science, 4.0 GPA, Expected June 2019
+* American University, Washington DC, B.A. Political Science, Minor Psychology, May 2009
+* Bellevue University, Bellevue NE, M.S. Data Science, 4.0 GPA, Expected June 2019
 ## Certifications 
 * Project Management Professional (PMP), Project Management Institute (PMI), 2015
 * Certified Scrum Master (CSM), Scrum Alliance, 2015

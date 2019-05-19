@@ -9,14 +9,14 @@ This is a short portfolio of projects accomplished over the course of the Master
 [Contact](docs/Contact.md)
 
 ## Projects
-1. OOP Example Project
-2. Fit a Logreg and Rmarkdown Script
-3. EDA and Presentation of Finding on Seattle Weather
-4. Scraping a Web Page
-5. API Data Transformation
-6. Data Wrangling with Python
-7. Kaggle Competition: Expedia Hotel Recommendations
-8. Using Data to Improve a Marketing Promotion 
-9. Creation of a Mini Data Warehouse 
-10. Movie Recommendation Engine
+[1. OOP Example Project] (project 1/readme.md)
+[2. Fit a Logreg and Rmarkdown Script]
+[3. EDA and Presentation of Finding on Seattle Weather]
+[4. Scraping a Web Page]
+[5. API Data Transformation]
+[6. Data Wrangling with Python]
+[7. Kaggle Competition: Expedia Hotel Recommendations]
+[8. Using Data to Improve a Marketing Promotion]
+[9. Creation of a Mini Data Warehouse]
+[10. Movie Recommendation Engine]
 

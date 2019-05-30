@@ -1,4 +1,4 @@
-# DS Masters Capstone
+# Portfolio Dan Siegel
 
 This is a short portfolio of projects accomplished over the course of the Masters in Data Science at Bellevue University. You will find a Readme in each project that further details the scope of what was covered. 
 
@@ -9,8 +9,8 @@ This is a short portfolio of projects accomplished over the course of the Master
 [Contact](docs/Contact.md)
 
 ## Projects
-1. [Avengers Analysis Using OOP](project%201/readme.md)
-2. [Survival Rate Analysis of Thoraric Surgery ](project%202/readme.md)
+1. [Avengers Analysis Using OOP](docs/project1.md)
+2. [Survival Rate Analysis of Thoraric Surgery ](docs/project1.md)
 3. [EDA and Presentation of Finding on Seattle Weather](https://github.com/danjsiegel/Portfolio/blob/master/project%203/README.md)
 4. [Scraping a Web Page](https://github.com/danjsiegel/Portfolio/blob/master/project%204/README.md)
 5. [API Data Transformation](https://github.com/danjsiegel/Portfolio/blob/master/project%205/README.md)

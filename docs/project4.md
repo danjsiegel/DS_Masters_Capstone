@@ -1,5 +1,7 @@
 # Scraping a Web Page
 
+[Code](https://github.com/danjsiegel/Portfolio/tree/master/project%204)
+
 This is web scraping of the Belleveue University Data Science Masters page. In this project, I scrape the required classes from the university external site on order to demonstrate how to extract data. From here, the data can be loaded into any desired format: CSV, JSON, DataFrame, ETC.  
 
 ### The Data
@@ -18,3 +20,5 @@ Powerpoint
 * requests
 * lxml
 * time
+
+[Home](https://danjsiegel.github.io/Portfolio/)

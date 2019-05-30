@@ -1,5 +1,7 @@
 # Kaggle Competition: Expedia Hotel Recommendations
 
+[Code](https://github.com/danjsiegel/Portfolio/tree/master/project%207)
+
 For this project, we participated in the Kaggle Competition: Expedia Hotel Recommendations.
 https://www.kaggle.com/c/expedia-hotel-recommendations
 
@@ -17,3 +19,5 @@ Python 3.6
 * pandas
 * numpy
 * sklearn
+
+[Home](https://danjsiegel.github.io/Portfolio/)

@@ -1,4 +1,6 @@
-# Rain in Seattle
+# Exploratory Analysis of Rain in Seattle
+
+[Code](https://github.com/danjsiegel/Portfolio/tree/master/project%203)
 
 This is an exploratory analysis of the rain patterns and trends in Seattle, WA. The project looks at weather patterns using EDA methodology in order to determine any overt patterns. 
 
@@ -17,3 +19,5 @@ Powerpoint
 * Seaborn
 * Numpy
 * Scipy
+
+[Home](https://danjsiegel.github.io/Portfolio/)

@@ -1,6 +1,7 @@
 # Avengers Analysis Using OOP
 
 [Code](https://github.com/danjsiegel/Portfolio/tree/master/project%201)
+
 This project is an analysis of the Avengers using OOP principles. The data (data about the avengers) is in CSV format. The data is ingested, processing the data and then writes out Markdown file on the most popular avengers. The project displays a full project which includes unit tests. 
 
 ### Script Outputs
@@ -28,8 +29,7 @@ Python 3.5
 
 
 ```nohighlight
-msds510-final/
-├── README.md
+Project 1/
 ├── data
 │   ├── interim
 │   ├── processed
@@ -55,4 +55,4 @@ msds510-final/
         └── test_util_date.py
 ```
 
-[Home](README.md)
+[Home](https://danjsiegel.github.io/Portfolio/)

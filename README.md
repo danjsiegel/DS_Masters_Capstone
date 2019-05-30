@@ -9,8 +9,8 @@ This is a short portfolio of projects accomplished over the course of the Master
 [Contact](docs/Contact.md)
 
 ## Projects
-1. [OOP Example Project ](https://github.com/danjsiegel/Portfolio/blob/master/project%201/readme.md)
-2. [Fit a Logreg and Rmarkdown Script](https://github.com/danjsiegel/Portfolio/blob/master/project%202/readme.md)
+1. [Avengers Analysis Using OOP](https://github.com/danjsiegel/Portfolio/blob/master/project%201/readme.md)
+2. [Survival Rate Analysis of Thoraric Surgery ](https://github.com/danjsiegel/Portfolio/blob/master/project%202/readme.md)
 3. [EDA and Presentation of Finding on Seattle Weather](https://github.com/danjsiegel/Portfolio/blob/master/project%203/README.md)
 4. [Scraping a Web Page](https://github.com/danjsiegel/Portfolio/blob/master/project%204/README.md)
 5. [API Data Transformation](https://github.com/danjsiegel/Portfolio/blob/master/project%205/README.md)

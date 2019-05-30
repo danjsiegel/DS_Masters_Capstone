@@ -1,0 +1,43 @@
+---
+title: "Comparing GLM to KNN"
+author: "Dan Siegel"
+output:
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(httr)
+library(ggplot2)
+library(dplyr) 
+library(readr)
+library(class)
+library(caret)
+library(gmodels)
+library(cluster)
+library(fpc)
+library(foreign)
+library(date)
+library(ROCR)
+binary_data <- read_csv("http://content.bellevue.edu/cst/dsc/520/id/resources/binary-classifier-data.csv")
+ind <- createDataPartition(binary_data$label, p=0.70, list=FALSE)
+dat_train <- binary_data[ind,]       
+dat_test <- binary_data[-ind,]        
+binary_log <- glm(label~ x + y, data=dat_train)
+binary_pred <- predict(binary_log, dat_test, type = "response")
+dat_train <- binary_data[ind,]       
+dat_test <- binary_data[-ind,]    
+```
+
+## Accuracy of the logistic regression classifier?
+
+```{r message=TRUE, echo=TRUE}
+confusionMatrix(table(data = as.numeric(binary_pred>0.5), reference = dat_test$label))
+```
+
+## How does the accuracy of the logistic regression classifier compare to the nearest neighbors algorithm?
+
+```{r echo=TRUE, message=TRUE}
+binary_knn <- knn(dat_train[,-1], dat_test[,-1], factor(dat_train$label), k=5, prob=TRUE)
+confusionMatrix(table(binary_knn, dat_test$label))
+```

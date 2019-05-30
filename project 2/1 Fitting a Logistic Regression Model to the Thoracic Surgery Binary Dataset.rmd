@@ -1,0 +1,69 @@
+---
+title: "Fiting a Logistic Regression Model to the Thoracic Surgery Binary Dataset"
+author: "Dan Siegel"
+output:
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(httr)
+library(ggplot2)
+library(dplyr) 
+library(readr)
+library(class)
+library(caret)
+library(gmodels)
+library(cluster)
+library(fpc)
+library(foreign)
+library(date)
+surg <- read.arff('https://archive.ics.uci.edu/ml/machine-learning-databases/00277/ThoraricSurgery.arff')
+surg$Risk1Yr <- as.numeric(surg$Risk1Yr)-1
+surg$DGN <- as.factor(surg$DGN)
+surg$PRE6 <- as.factor(surg$PRE6)
+surg$PRE7 <- as.numeric(surg$PRE7)-1
+surg$PRE8 <- as.numeric(surg$PRE8)-1
+surg$PRE9 <- as.numeric(surg$PRE9)-1
+surg$PRE10 <- as.numeric(surg$PRE10)-1
+surg$PRE11 <- as.numeric(surg$PRE11)-1
+surg$PRE14 <- as.factor(surg$PRE14)
+surg$PRE17 <- as.numeric(surg$PRE17)-1
+surg$PRE19 <- as.numeric(surg$PRE19)-1
+surg$PRE25 <- as.numeric(surg$PRE25)-1
+surg$PRE30 <- as.numeric(surg$PRE30)-1
+surg$PRE32 <- as.numeric(surg$PRE32)-1
+```
+
+## Fitting a binary logistic regression model to the data set that predicts whether or not the patient survived for one year (the Risk1Y variable) after the surgery. 
+
+```{r echo=TRUE, message=TRUE}
+survived <- glm(Risk1Yr ~ DGN + PRE4 + PRE5 + PRE6 + PRE7 + PRE8 +    
+                PRE9 + PRE10 + PRE11 + PRE14 + PRE17  + PRE19 + 
+                  PRE25 + PRE30 + PRE32 + AGE, data=surg)
+summary(survived)
+```
+
+## These variables had the greatest effect on the survival rate
+DGN8, pre9, pre14/Oc14
+
+## What is the accuracy of your model?
+
+```{r message=FALSE, echo=TRUE}
+set.seed(123)
+n<- nrow(surg)
+shuffled <- surg[sample(n),]
+train <- shuffled[1:round(0.7 * n),]
+test <- shuffled[(round(0.7 * n) + 1):n,]
+testing_survived <- glm(Risk1Yr ~ DGN + PRE4 + PRE5 + PRE6 + PRE7 + PRE8 +    
+                          PRE9 + PRE10 + PRE11 + PRE14 + PRE17  + PRE19 + 
+                          PRE25 + PRE30 + PRE32 + AGE, data=train)
+predicted_data <- predict(testing_survived, newdata = test)
+x<- as.integer(predicted_data)
+y <- test$Risk1Yr
+l <- union(x, y)
+Table2 <- table(factor(x, l), factor(y, l))
+```
+```{r echo=FALSE}
+confusionMatrix(Table2)
+```

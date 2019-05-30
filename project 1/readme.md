@@ -1,6 +1,6 @@
-# OOP Demonstration Project
+# Avengers Analysis Using OOP
 
-This project is an example of OOP programming. The data (data about the avengers) is in CSV format. The data is ingested, processing the data and then writes out Markdown file on the most popular avengers. The project displays a full project which includes unit tests. 
+This project is an analysis of the Avengers using OOP principles. The data (data about the avengers) is in CSV format. The data is ingested, processing the data and then writes out Markdown file on the most popular avengers. The project displays a full project which includes unit tests. 
 
 ### Script Outputs
 
@@ -23,7 +23,7 @@ The `run_tests.py` script should run all of the unit tests in the `tests` direct
 
 ### Prerequisites
 
-Python
+Python 3.5
 
 
 ```nohighlight
@@ -53,3 +53,5 @@ msds510-final/
         ├── test_util_conversion.py
         └── test_util_date.py
 ```
+
+[Home](README.md)

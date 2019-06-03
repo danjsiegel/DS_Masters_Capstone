@@ -1,4 +1,5 @@
 # Daniel J. Siegel, PMP, CSM, CSPO
+[LinkedIn](https://www.linkedin.com/in/danjsiegel/)
 
 ## Education
 * American University, Washington DC, B.A. Political Science, Minor Psychology, May 2009

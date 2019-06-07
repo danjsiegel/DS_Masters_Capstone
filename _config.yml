@@ -1,6 +1,7 @@
 theme: jekyll-theme-merlot
 plugins:
   - jekyll-relative-links
+google_analytics: UA-141696430-1
 relative_links:
   enabled: true
   collections: true

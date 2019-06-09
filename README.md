@@ -10,7 +10,7 @@ This is a short portfolio of projects accomplished over the course of the Master
 
 ## Projects
 1. [Avengers Analysis Using OOP](docs/project1.md)
-2. [Survival Rate Analysis of Thoraric Surgery ](docs/project2.md)
+2. [Survival Rate Analysis of Thoracic Surgery ](docs/project2.md)
 3. [EDA on Seattle Weather](docs/project3.md)
 4. [Scraping a Web Page](docs/project4.md)
 5. [API Data Transformation](docs/project5.md)

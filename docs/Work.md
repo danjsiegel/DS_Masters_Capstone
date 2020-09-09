@@ -29,8 +29,8 @@
 
 
 ## Software Skills: 
-Microsoft Suite, Raiser’s Edge, PeopleSoft, Westlaw Business, LawCruit, Confluence, Jira, Kenexa BrassRing, Survey Monkey, WorkforceNow, SharePoint, Laserfiche, Team Foundation Server (TFS), Visual Studio, MS Project  
+Microsoft Suite, Confluence, Jira, Survey Monkey, WorkforceNow, SharePoint, Laserfiche, Team Foundation Server (TFS), Qualtrics, Visual Studio, MS Project, PowerBI, Tableau, Salesforce, InVision  
 
 ## Programming 
-HTML, CSS, SQL, JavaScript, C++, Python, C#, JCL, z/OS, REXX
+HTML, CSS, SQL, JavaScript, JQuery, C++, Python, C#, Spark, Pandas, Scikit-Learn, NumPy, Seaborn, Matplotlib, Git, Bitbucket, GitHub, Plotly, R, ggplot2, keras, NLTK, Gensim, Selenium
 

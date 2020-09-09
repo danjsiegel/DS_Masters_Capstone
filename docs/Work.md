@@ -10,11 +10,11 @@
 * Certified Scrum Master (CSM), Scrum Alliance, 2015
 * Certified Scrum Product Owner (CSPO), Scrum Alliance, 2015
 * Business Process Management Specialist (BPMS), AIIM, 2016
-* Certified Cloud Practitioner, Amazon Web Services (AWS), 2018
+* Certified Solutions Architect, Associate, Amazon Web Services (AWS), 2019
 
 ## Professional Experience
-* Sr. Product Owner, BMC Software, Remote, March 2019 - Present
-* Product Owner, CBT Nuggets, Eugene OR, June 2018 - February 2019
+* Data Engineer, The Carilion Clinic, Roanoke, VA, October 2019 - Present
+* Student, Graduate School – Bellevue University June 2018 - June 2019
 * Project Manager/Product Owner, Cities Digital, Portland, OR, April 2016–June 2018
 * Implementation Consultant, ADP, Clackamas, OR, June 2015–April 2016
 * Project Specialist, Walmart eCommerce, San Bruno, CA Oct 2012–May 2015
